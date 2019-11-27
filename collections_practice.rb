@@ -33,7 +33,7 @@ end
   
 def kesha_maker(word)
   
-word.each{|words| words[2].sub!"$"}
+word.each{|words| words.sub!(words[2], "$")}
 
  end
 
