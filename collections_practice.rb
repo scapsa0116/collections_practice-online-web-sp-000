@@ -43,7 +43,7 @@ def sum_array(w)
 end
 
 def find_a(text)
-  ary[]
+  ary = []
   text.each do |texts|
     texts.start_with?("a")
   ary << texts.start_with?("a")
