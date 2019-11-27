@@ -45,12 +45,12 @@ end
 def find_a(text)
   ary = []
   text.each do |texts|
-  texts.start_with?("a")
+    texts.start_with?("a")
     if texts.start_with?("a")
-    ary << texts
+       ary << texts
     end
   end
-ary
+  ary
 end
 
 def add_s(elements)
