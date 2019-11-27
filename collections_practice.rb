@@ -44,7 +44,7 @@ end
 
 def find_a(text)
   text.start_with?("a")  
-  text
+
 end
 
 def add_s(elements)
