@@ -49,8 +49,9 @@ def find_a(text)
     if texts.start_with?("a")
   ary << texts.start_with?("a")
 end
-ary
+
 end
+ary
 end
 
 def add_s(elements)
