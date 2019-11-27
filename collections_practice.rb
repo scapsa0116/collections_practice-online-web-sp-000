@@ -53,7 +53,7 @@ def find_a(text)
 end
 
 def add_s(elements)
-  [0,2,3].each_with_index.collect{|element, index| element +"s"  }
+  elements.each_with_index.collect{|element, index| element +"s"  }
 end
 
   
