@@ -45,7 +45,7 @@ end
 def find_a(text)
   ary = []
   text.each do |texts|
-       texts.start_with?("a")
+      if texts.start_with?("a")
        ary << texts
     end
   end
